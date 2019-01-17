@@ -313,7 +313,7 @@ static struct rtl_mod_params rtl8723de_mod_params = {
 	.disable_watchdog = false,
 	.debug_level = 0,//DBG_EMERG,
 	.debug_mask = 0xffffffffffffffffULL,
-	.ant_sel = 0,
+	.ant_sel = 2,
 };
 
 static const struct rtl_hal_cfg rtl8723de_hal_cfg = {
